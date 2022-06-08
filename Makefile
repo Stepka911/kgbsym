@@ -3,5 +3,5 @@ init:
 	docker compose up -d
 	docker compose exec --user=www-data php composer install
 
-stop: 
+stop:
 	docker compose down
